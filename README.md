@@ -19,3 +19,4 @@ Navegación entre la lista principal y la vista de detalle.
 
 Carga de imágenes desde una URL utilizando la librería Glide.
 
+![Texto alternativo para la imagen](imag.png)
