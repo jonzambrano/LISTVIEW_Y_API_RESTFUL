@@ -1,6 +1,6 @@
 
 
-App de Catálogo de Productos 🛍️
+# App de Catálogo de Productos 🛍️
 Este es un proyecto de Android sencillo, desarrollado en Java con Android Studio, que muestra un catálogo de productos consumiendo datos de una API pública.
 
 ## Descripción
