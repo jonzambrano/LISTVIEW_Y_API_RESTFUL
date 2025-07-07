@@ -1,22 +1,18 @@
 
 
+Claro, aquí tienes el texto del README adaptado para describir únicamente la pantalla que se muestra en la imagen.
+
 App de Catálogo de Productos 🛍️
 Este es un proyecto de Android sencillo, desarrollado en Java con Android Studio, que muestra un catálogo de productos consumiendo datos de una API pública.
 
 ## Descripción
-La aplicación consta de dos pantallas principales:
-
-Pantalla Principal: Muestra una lista de productos obtenidos desde la Fake Store API.
-
-Pantalla de Detalle: Al hacer clic en un producto de la lista, se abre una nueva pantalla que muestra la imagen, categoría, precio y descripción completa del artículo.
+La aplicación consiste en una única pantalla que muestra una lista de productos obtenidos directamente desde la Fake Store API. Cada elemento de la lista presenta la imagen, categoría, una breve descripción y el precio del producto, todo en una interfaz clara y directa.
 
 ## Características
-Visualización de productos en una lista (ListView).
+Visualización de productos: Muestra los artículos en una lista vertical (ListView) con un diseño moderno de tarjetas.
 
-Consumo de datos desde una API RESTful (GET).
+Consumo de API: Obtiene y muestra datos en tiempo real desde un servicio RESTful (GET).
 
-Navegación entre la lista principal y la vista de detalle.
-
-Carga de imágenes desde una URL utilizando la librería Glide.
+Interfaz Limpia: Carga de imágenes desde una URL para cada producto, integrándolas en la vista de tarjeta.
 
 ![Texto alternativo para la imagen](imag.png)
