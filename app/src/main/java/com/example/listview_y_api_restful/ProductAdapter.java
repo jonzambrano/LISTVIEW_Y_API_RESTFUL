@@ -15,12 +15,12 @@ import java.util.ArrayList;
 
 public class ProductAdapter extends ArrayAdapter<Productos> {
     public ProductAdapter(Context context, ArrayList<Productos> datos) {
-        super(context, R.layout.activity_main3, datos);
+        super(context, R.layout.product_item, datos);
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(getContext());
-        View item = inflater.inflate(R.layout.activity_main3, null);
+        View item = inflater.inflate(R.layout.product_item, null);
 
         TextView txtCategoria = item.findViewById(R.id.lblCategoria);
         txtCategoria.setText(getItem(position).getCategoria());
